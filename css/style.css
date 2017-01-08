@@ -1,0 +1,127 @@
+html {
+	background-color: #DDE5E4;
+	border: 15px solid #b9ac9c;
+	box-sizing: border-box;
+}
+*, *:before, *after {
+	box-sizing: inherit;
+}
+body{
+
+}
+/*div{
+	border: 1px solid white;
+}*/
+.content{
+	padding: 0 15px;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 37.5rem;
+	}
+
+header{
+	background-color: #DDE5E4;
+	height: 60px;
+}
+div.nothing{
+	padding: 20px;
+	height: 20px;
+}
+.contact_info{
+	float: left;
+	color: #b9ac9c;
+	padding-top: 22px;
+	padding-left: 10%;
+	font-size: 2rem;
+}
+.email{
+	margin: auto;
+	float: left;
+	width: 200px;
+	color: #b9ac9c;
+	padding-top: 5px;
+	padding-left: 90px;
+	font-size: 1.5rem;
+	font-family: 'Poiret One', cursive;
+}
+img{
+	float: center;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+.projects{
+	float: right;
+	color: #b9ac9c;
+	padding-top: 22px;
+	padding-right: 10%;
+	font-size: 2rem;
+	font-family: 'Cormorant Garamond', serif;
+}
+.projects:hover{
+	color: white;
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 2.5rem;
+	color:  #b9ac9c;
+}
+p.lastname{
+	font-size: 8em;
+	line-height: 140px;
+}
+div{
+	text-align: center;
+	background-color: #DDE5E4;
+	color: white;
+	margin: auto;
+	position: block;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 2rem;
+}
+.about{
+	padding: 40px;
+	width: 750px;
+}
+footer{
+	background-color: #DDE5E4;
+	float: right;
+	color: #b9ac9c;
+	padding: 0px;
+	/*padding-top: 22px;
+	padding-bottom: 22px;*/
+	/*padding-right: 10%;*/
+	font-size: 2rem;
+	font-family: 'Cormorant Garamond', serif;
+}
+.follow{
+	text-align: right;
+	padding-right: 133px;
+}
+.socials{
+	text-align: center;
+	font-size: 3rem;
+    padding: 0px;
+    margin-right: 112px;
+}
+.socials li{
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+	margin-right: 10px;
+}
+.fa-linkedin{
+	color: white;
+}
+.fa-github{
+	color: white;
+}
+.fa-codepen{
+	color: white;
+}
+@media screen (max-height: 780px){
+	
+}
