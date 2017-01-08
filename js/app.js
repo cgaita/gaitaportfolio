@@ -10,7 +10,7 @@ var Projects = function(image, url, gitUrl){
 	this.gitUrl=gitUrl;
 }
 
-var about_me = new Projects("img/about_me.png");
+var about_me = new Projects("img/about_me.png","http://codepen.io/cgaita/full/oLEAzY/","http://codepen.io/cgaita/pen/oLEAzY/");
 var karma = new Projects("img/karma.png","https://cgaita.github.io/startup-landing-page-clone/", "https://github.com/cgaita/startup-landing-page-clone");
 var street_fighter = new Projects("img/street_fighter.png", "https://cgaita.github.io/jquery-streetfighter/", "https://github.com/cgaita/jquery-streetfighter");
 var shopping_list = new Projects("img/shopping_list.png", "https://cgaita.github.io/shopping-list/", "https://github.com/cgaita/shopping-list");

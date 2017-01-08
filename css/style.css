@@ -261,4 +261,7 @@ li{
 	.socials li{
 		padding:0 30px;
 	}
+	.image{
+		width: 350px;
+	}
 }
