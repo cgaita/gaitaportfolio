@@ -1,8 +1,6 @@
-
 html {
 	background-color: #423C41;
 }
-
 /*boreder*/
 #top, #bottom, #left, #right {
 	background: #b9ac9c;
@@ -83,7 +81,6 @@ html {
     font-size: 40px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: grey;
@@ -195,7 +192,6 @@ ul{
 }
 li{
 	display: inline-block;
-
 }
 @media only screen and (max-width: 667px){
 

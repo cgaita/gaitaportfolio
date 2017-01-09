@@ -1,15 +1,9 @@
-$(document).ready(function(){
-
-
- });
-
   //slideshow
 var Projects = function(image, url, gitUrl){
 	this.image=image;
 	this.url=url;
 	this.gitUrl=gitUrl;
 }
-
 var about_me = new Projects("img/about_me.png","http://codepen.io/cgaita/full/oLEAzY/","http://codepen.io/cgaita/pen/oLEAzY/");
 var karma = new Projects("img/karma.png","https://cgaita.github.io/startup-landing-page-clone/", "https://github.com/cgaita/startup-landing-page-clone");
 var street_fighter = new Projects("img/street_fighter.png", "https://cgaita.github.io/jquery-streetfighter/", "https://github.com/cgaita/jquery-streetfighter");
@@ -22,19 +16,11 @@ var instagram = new Projects("img/instagram.png","https://cgaita.github.io/insta
   
 var projectArray = [about_me, karma, street_fighter, shopping_list, hot_cold, quiz, stackoverflow, logos, instagram];
   
-var image = new Array ("img/about_me.png", "img/karma.png", "img/street_fighter.png", "img/shopping_list.png", "img/hot_cold.png", "img/quiz.png");
+var image = new Array ("img/about_me.png", "img/karma.png", "img/street_fighter.png", "img/shopping_list.png", "img/hot_cold.png", "img/quiz.png","img/stackoverflow.png","img/logos.png","img/instagram.png");
 var image_number =0;
 var image_length = image.length - 1;
-var image_length = projectArray.length - 1;
 var Interval;
 
-function startSlideshow(projectArray){
-	console.log(projectArray)
-	var image_number = 0;
-	var image_length = projectArray.length - 1;
-	var Interval;
-
-}
 function setLinks(num) {
 	var currentLink = projectArray[image_number].url;
 	var currentGitLink = projectArray[image_number].gitUrl;
